@@ -1,0 +1,16 @@
+Privacy Policy
+
+This page is used to connect a TON wallet to the game/application.
+
+We may process the following technical data:
+- wallet address provided after successful wallet connection;
+- basic technical information required for the page to function;
+- data shared by wallet providers or browser tools as part of the connection process.
+
+We do not intentionally collect passport data, seed phrases, or private keys.
+We do not ask users to enter private keys or recovery phrases anywhere on this page.
+
+If no backend storage is used, wallet connection data is processed only in the user's browser session.
+If backend verification is added later, this policy may be updated.
+
+We may use third-party wallet and blockchain infrastructure required for TON Connect functionality.

@@ -1,0 +1,12 @@
+Terms of Use
+
+This page is provided for connecting a TON wallet to the game/application.
+
+By using this page, you agree that:
+- you use the service at your own risk;
+- wallet connection does not guarantee access to any paid or blockchain-based features;
+- the service may be changed, suspended, or removed at any time without notice;
+- you are responsible for any actions confirmed in your wallet;
+- we are not responsible for losses caused by user error, wallet software issues, network issues, or third-party services.
+
+This page is provided "as is" without warranties of any kind.

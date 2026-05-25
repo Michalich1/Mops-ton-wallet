@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TON Connect Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: #f9fafb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: #1f2937;
+      border-radius: 16px;
+      padding: 24px;
+      box-sizing: border-box;
+      box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    }
+    h1 { margin: 0 0 12px; font-size: 24px; }
+    p { color: #d1d5db; line-height: 1.5; }
+    button {
+      width: 100%;
+      padding: 14px 16px;
+      margin-top: 12px;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #connectBtn { background: #22c55e; color: white; }
+    #disconnectBtn { background: #374151; color: white; }
+    #status, #walletAddress {
+      margin-top: 14px;
+      padding: 12px;
+      background: #111827;
+      border-radius: 10px;
+      word-break: break-word;
+    }
+    #wallets { margin-top: 16px; }
+    .wallet-btn {
+      background: #2563eb;
+      color: white;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>TON Connect</h1>
+    <p>Minimal page for connecting a TON wallet from Unreal via Web Browser.</p>
+
+    <button id="connectBtn">Connect wallet</button>
+    <button id="disconnectBtn">Disconnect</button>
+
+    <div id="status">Status: not connected</div>
+    <div id="walletAddress">Wallet: -</div>
+    <div id="wallets"></div>
+  </div>
+
+  <script src="https://unpkg.com/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
